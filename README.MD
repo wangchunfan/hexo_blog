@@ -37,10 +37,12 @@ deploy:
 
 - 新建博文
 `hexo new "博文的标题"`
-
+- 本地浏览
+`hexo server -p 4001`
 - 修改无变化
 `hexo clean`
-
+- 上传到GitHub,自动先发布
+`hexo d`
 
 ### 其他
 
