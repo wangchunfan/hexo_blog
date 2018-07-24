@@ -8,6 +8,7 @@ categories: "JavaScript"
 ### 变量
 
 - 局部变量命名采用首字母小写，其它单词首字母大写：
+
 ```js
 //推荐
 var printContent = 'hello world' 
@@ -51,16 +52,19 @@ var $tocTitle = $('.reader-toc-title');
 - 函数参数逗号`,`后面加空格
 - 函数名后面不加空格
 - 参数`)`和`{`之间有空格
+
 ```
 function Partition(data, length, start, end) {
 }
 ```
 
 - `for` 循环中的`;`后面加空格
+
 ```
 for (var i = 0; i < 10; i++) 
 ```
 - `=` `<` 等操作符前后加空格
+
 ```
 while (x == y)
 ```
@@ -87,11 +91,13 @@ var content = '<sapn id="main_content"> ...';
 ```
 
 - 左大括号不要另起一行，
+
 ```js
 for(var i = 0; i < 10; i ++){
 }
 ```
 - 即使逻辑只有一行也要用大括号括起来
+
 ```js
 if(false){
   return true;
@@ -104,6 +110,7 @@ if(false){
 除非下一行以`[`、`(`、`+`、`-`、`/`开头则不添加分号
 
 - 由于自动添加分号导致错误
+
 ```js
 return 
 {
@@ -111,6 +118,7 @@ return
 }
 ```
 等价于
+
 ```js
 return ;
 {
@@ -119,6 +127,7 @@ return ;
 ```
 可以通过将`(`不另起一行解决
 - 由于没有在该添加分号处添加导致错误
+
 ```js
 var b = function()
 var a = b
@@ -126,6 +135,7 @@ var a = b
 )()
 ```
 等价于
+
 ```
 var a = b(function())()
 ```

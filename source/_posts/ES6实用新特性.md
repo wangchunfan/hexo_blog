@@ -5,8 +5,10 @@ tags: "JavaScript"
 categories: "JavaScript"
 ---
 
+最实用的ES6新特性
 
 ## 兼容性
+
 http://kangax.github.io/compat-table/es5/
 http://kangax.github.io/compat-table/es6/
 

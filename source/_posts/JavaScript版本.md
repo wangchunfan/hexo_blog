@@ -41,6 +41,7 @@ Google：V8引擎（也有各种版本）
 
 * * *
 参考：
-《JavaScript 版本一览  》http://songyongge417.blog.163.com/blog/static/14914645200992685635761/
-《JavaScript 的历史》：http://www.w3school.com.cn/js/pro_js_history.asp；http://www.w3school.com.cn/js/pro_js_implement.asp
-《[javascript 版本](http://kongxiantao.iteye.com/blog/1260334)》：http://kongxiantao.iteye.com/blog/1260334
+
+[《JavaScript版本一览》](http://songyongge417.blog.163.com/blog/static/14914645200992685635761/)
+[《JavaScript的历史》](http://www.w3school.com.cn/js/pro_js_history.asp)
+[《javascript版本》](http://kongxiantao.iteye.com/blog/1260334)
