@@ -7,23 +7,21 @@
 
 ## 命令
 
-- 安装hexo
-`npm install -g hexo`
-- 安装其他依赖
-`npm install`
-- 创建文件夹
-`hexo init 文件名`
-- 生成静态文件:
-`$ hexo generate`
+- 安装hexo `npm install -g hexo`
+- 安装其他依赖 `npm install`
+- 创建文件夹 `hexo init 文件名`
+- 生成静态文件: `$ hexo generate`
 
 ## 本地服务
+
 - `hexo server`默认4000，可能跑不起来
 - `hexo server -p 4001`，更换端口
 
 ## 发布git
 
 - 配置git路径:
-```
+
+```json
 deploy:
   repository: https://github.com/Firsmant/Firsmant.github.io.git
   type: git
@@ -31,20 +29,17 @@ deploy:
 
 ```
 
-- 安装git支持
-`npm install hexo-deployer-git`
+- 安装git支持 `npm install hexo-deployer-git`
 
-- `hexo deployer`
-将文件上传到GitHub，会放到`Firsmant.github.io`仓库中
-
+- `hexo deployer` 将文件上传到GitHub，会放到`Firsmant.github.io`仓库中
 
 ## 常用命令
 
-- 新建博文
-`hexo new "博文的标题"`
+- 新建博文`hexo new "博文的标题"`
 
 - 文章基本设置
-```
+
+```js
 ---
 title: 简单排序
 date: 2018-07-11 22:37:24
@@ -54,11 +49,12 @@ categories: "数据结构/排序" #分类
 tags:   "数据结构" #标签
 ---
 ```
-- 新建标签
-`hexo new page tags`
-配置tags目录下的index
 
-```
+- 新建标签
+
+`hexo new page tags` 配置tags目录下的index
+
+```json
 ---
 title: tags
 date: 2018-07-11 22:37:24
@@ -66,11 +62,9 @@ type: "tags"
 ---
 ```
 
-- 新建分类
-`hexo new page categories`
-配置categories目录下的index
+- 新建分类`hexo new page categories`配置categories目录下的index
 
-```
+```js
 ---
 title: categories
 date: 2018-07-11 22:37:37
@@ -79,35 +73,50 @@ type: "categories"
 
 ```
 
+- 修改无变化 `hexo clean`
 
-- 修改无变化
-`hexo clean`
+## 其他
 
+- 添加README.md,站点配置文件中
 
-### 其他
-
-- 添加README.md,站点配置文件中 
-```
+```js
 skip_render: README.md
 ```
+
 - 头像，修改主题配置
-```
+
+```js
 avatar: 
   url:  /images/avatar.jpg
 ```
+
 - 点击心形
+
 `themes\next\source\js\src`下新建`love.js`
-js代码：http://7u2ss1.com1.z0.glb.clouddn.com/love.js
+
+js代码地址：[http://7u2ss1.com1.z0.glb.clouddn.com/love.js](http://7u2ss1.com1.z0.glb.clouddn.com/love.js)
+
 添加引用：`themes\next\layout\_layout.swig`末尾添加：
-```  
+
+```js  
 <!-- 页面点击小红心 -->
   <script type="text/javascript" src="/js/src/love.js"></script>
 ```
+
 - 头像圆形并旋转
+
 `themes\next\source\css\_common\components\sidebar\sidebar-author.styl`代码部分修改
+
 - 文章显示一部分
-```
+
+```js
 auto_excerpt:
   enable: true
   length: 150
 ```
+
+----
+参考：
+
+- hexo官网
+- next主题官网
