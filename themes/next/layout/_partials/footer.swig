@@ -55,6 +55,13 @@
     #}NexT.{{ theme.scheme }}{#
   #}</a>{% if theme.footer.theme.version %} v{{ version }}{% endif %}{#
 #}</div>
+
+<div class="BbeiAn-info">
+{{ __('京ICP备')}} -
+<a target="_blank"  href="http://www.miitbeian.gov.cn/">19021568号</a>
+</a>
+</div>
+
 {% endif %}
 
 {% if theme.footer.custom_text %}
