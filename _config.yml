@@ -78,6 +78,9 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  repository: https://github.com/Firsmant/Firsmant.github.io.git
+- repository: git@192.144.199.235:/home/git/blog.git
+  type: git
+  branch: master
+- repository: https://github.com/Firsmant/Firsmant.github.io.git
   type: git
   branch: master

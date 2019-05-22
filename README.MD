@@ -31,7 +31,7 @@ deploy:
 
 - 安装git支持 `npm install hexo-deployer-git`
 
-- `hexo deployer` 将文件上传到GitHub，会放到`Firsmant.github.io`仓库中
+- `hexo deploy` 将文件上传到GitHub，会放到`Firsmant.github.io`仓库中
 
 ## 常用命令
 
