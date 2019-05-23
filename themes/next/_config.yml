@@ -124,7 +124,7 @@ menu:
   archives: /archives/ || archive
   schedule: /schedule/ || calendar
 #  sitemap: /sitemap.xml || sitemap
-  commonweal: /404/ || heartbeat
+# commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
@@ -156,11 +156,12 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 
 social:
-  GitHub: https://github.com/Firsmant || github
-#  E-Mail: 171250669@qq.com || envelope
-  博客园: http://www.cnblogs.com/-beauTiFul || rss
   CSDN: https://blog.csdn.net/qq_29150765 ||
-  掘金: https://juejin.im/user/5b56874de51d4519575a2f1e/posts || 
+#  GitHub: https://github.com/Firsmant || github
+  码云: https://gitee.com/171250669 || git
+#  E-Mail: 171250669@qq.com || envelope
+#  博客园: http://www.cnblogs.com/-beauTiFul || rss
+#  掘金: https://juejin.im/user/5b56874de51d4519575a2f1e/posts || 
 #  简书: https://www.jianshu.com/u/13d5a317d1df || book
 
 
