@@ -1,6 +1,5 @@
 ---
 title: JavaScript版本
-date: 2018-07-20 17:01:10
 tags: "JavaScript"
 categories: "JavaScript"
 ---

@@ -1,6 +1,5 @@
 ---
 title: ES6实用新特性
-date: 2018-07-22 23:17:45
 tags: "JavaScript"
 categories: "JavaScript"
 ---

@@ -1,6 +1,5 @@
 ---
 title: JavaScript编码命名规范及格式规范
-date: 2018-07-20 17:00:35
 tags: "JavaScript"
 categories: "JavaScript"
 ---
